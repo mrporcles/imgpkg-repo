@@ -403,6 +403,21 @@ spec:
         - kapp: {}
 ---
 apiVersion: data.packaging.carvel.dev/v1alpha1
+kind: PackageMetadata
+metadata:
+  name: local-path-storage.community.tanzu.vmware.com
+spec:
+  displayName: "local-path-storage"
+  longDescription: "This package provides local path node storage and primarily supports RWO AccessMode."
+  shortDescription: "This package provides local path node storage and primarily supports RWO AccessMode."
+  providerName: VMware
+  maintainers:
+    - name: John McBride
+    - name: Nicholas Seemiller
+  categories:
+    - "storage"
+---
+apiVersion: data.packaging.carvel.dev/v1alpha1
 kind: Package
 metadata:
   name: local-path-storage.community.tanzu.vmware.com.0.0.20
