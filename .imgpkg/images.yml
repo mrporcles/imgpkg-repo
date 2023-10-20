@@ -2,18 +2,45 @@
 apiVersion: imgpkg.carvel.dev/v1alpha1
 images:
 - annotations:
+    kbld.carvel.dev/id: projects.registry.vmware.com/certmanager/cert-manager@sha256:4ddd056a0711b9067b2f4e64d209dc26af869883e1459001a08c7e1bc6cff163
+  image: projects.registry.vmware.com/certmanager/cert-manager@sha256:4ddd056a0711b9067b2f4e64d209dc26af869883e1459001a08c7e1bc6cff163
+- annotations:
+    kbld.carvel.dev/id: projects.registry.vmware.com/tce/cert-manager@sha256:fbecd3ac1915ac8244e5522526fe6039dfb03d78c6b13d76384e78ee077f59fa
+  image: projects.registry.vmware.com/tce/cert-manager@sha256:fbecd3ac1915ac8244e5522526fe6039dfb03d78c6b13d76384e78ee077f59fa
+- annotations:
     kbld.carvel.dev/id: projects.registry.vmware.com/tce/contour@sha256:0128c3458d57cd637c198b3a6377bb1eca6e23301f27710ac29d9d0ee1c5bd09
   image: projects.registry.vmware.com/tce/contour@sha256:0128c3458d57cd637c198b3a6377bb1eca6e23301f27710ac29d9d0ee1c5bd09
 - annotations:
     kbld.carvel.dev/id: projects.registry.vmware.com/tce/contour@sha256:be540433d503c870a589570f541eb40482271f3e27ac3563c33d42c1bd3b0647
   image: projects.registry.vmware.com/tce/contour@sha256:be540433d503c870a589570f541eb40482271f3e27ac3563c33d42c1bd3b0647
 - annotations:
+    kbld.carvel.dev/id: projects.registry.vmware.com/tce/external-dns@sha256:4684a1b21e2f51904e21cc60907a4199a5a78221555c7a63556e5bba18c1efbf
+  image: projects.registry.vmware.com/tce/external-dns@sha256:4684a1b21e2f51904e21cc60907a4199a5a78221555c7a63556e5bba18c1efbf
+- annotations:
+    kbld.carvel.dev/id: projects.registry.vmware.com/tce/external-dns@sha256:9dbe4f8744c07f3113bc80d169503299a24f0651c154b671b2ad8430297a5b17
+  image: projects.registry.vmware.com/tce/external-dns@sha256:9dbe4f8744c07f3113bc80d169503299a24f0651c154b671b2ad8430297a5b17
+- annotations:
     kbld.carvel.dev/id: projects.registry.vmware.com/tce/fluent-bit@sha256:e8c0873ef8e1ea04f32b88afbab64fc4338d0c0536ef2f91b9dd54bee2c59ed7
   image: projects.registry.vmware.com/tce/fluent-bit@sha256:e8c0873ef8e1ea04f32b88afbab64fc4338d0c0536ef2f91b9dd54bee2c59ed7
+- annotations:
+    kbld.carvel.dev/id: projects.registry.vmware.com/tce/grafana@sha256:041d84a24c6faa3918ed3902643aec193cab2acec4d14c1035d7d29bfc9bc5c6
+  image: projects.registry.vmware.com/tce/grafana@sha256:041d84a24c6faa3918ed3902643aec193cab2acec4d14c1035d7d29bfc9bc5c6
+- annotations:
+    kbld.carvel.dev/id: projects.registry.vmware.com/tce/grafana@sha256:84d1c7b08c7e36ee45f59d502680ae97ce0d243fe10e2a05c7ff6ec8edefef6b
+  image: projects.registry.vmware.com/tce/grafana@sha256:84d1c7b08c7e36ee45f59d502680ae97ce0d243fe10e2a05c7ff6ec8edefef6b
+- annotations:
+    kbld.carvel.dev/id: projects.registry.vmware.com/tce/harbor@sha256:67a71b2aa428bc04abd65c7ba2a75576bf240e69a48160dd0e31ae6eef35b7f3
+  image: projects.registry.vmware.com/tce/harbor@sha256:67a71b2aa428bc04abd65c7ba2a75576bf240e69a48160dd0e31ae6eef35b7f3
+- annotations:
+    kbld.carvel.dev/id: projects.registry.vmware.com/tce/harbor@sha256:729399d4ccce00987cbf7cc83a260880d9022ca6b290935f491c78c9b8341990
+  image: projects.registry.vmware.com/tce/harbor@sha256:729399d4ccce00987cbf7cc83a260880d9022ca6b290935f491c78c9b8341990
 - annotations:
     kbld.carvel.dev/id: projects.registry.vmware.com/tce/local-path-storage@sha256:9c138c1e2bb54a2f9495b9ce3fc8cebba2afc46d0f296a93ff7ef9f7ae32373f
   image: projects.registry.vmware.com/tce/local-path-storage@sha256:9c138c1e2bb54a2f9495b9ce3fc8cebba2afc46d0f296a93ff7ef9f7ae32373f
 - annotations:
     kbld.carvel.dev/id: projects.registry.vmware.com/tce/local-path-storage@sha256:e0db08cc6e83efb1f772ab9714d78900b5634146c266954abc805461a005beb1
   image: projects.registry.vmware.com/tce/local-path-storage@sha256:e0db08cc6e83efb1f772ab9714d78900b5634146c266954abc805461a005beb1
+- annotations:
+    kbld.carvel.dev/id: projects.registry.vmware.com/tce/prometheus@sha256:6f99e170b544291e2eab415b89aa215cb8cfbf53e60d5102b0d717e5c14ee1c1
+  image: projects.registry.vmware.com/tce/prometheus@sha256:6f99e170b544291e2eab415b89aa215cb8cfbf53e60d5102b0d717e5c14ee1c1
 kind: ImagesLock
