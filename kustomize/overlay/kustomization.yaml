@@ -9,3 +9,4 @@ resources:
 patches:
 - path: configMap.yaml
 - path: service.yaml
+- path: deployment.yaml
