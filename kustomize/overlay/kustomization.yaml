@@ -4,7 +4,7 @@ metadata:
   name: arbitrary
 
 resources:
-- https://github.com/kubernetes-sigs/kustomize//examples/helloWorld?timeout=120&ref=v3.3.1
+- ../base
 - ingress.yaml
 patches:
 - path: configMap.yaml
